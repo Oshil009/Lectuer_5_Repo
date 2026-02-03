@@ -381,35 +381,3 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
-
-@media (max-width: 900px) {
-
-    nav {
-        font-size: 16px;
-    }
-
-    .hero-text h1 {
-        font-size: 48px;
-    }
-
-    .hero-text p {
-        font-size: 18px;
-    }
-
-    .hero-about {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .menu-card-show {
-        flex-wrap: wrap;
-    }
-
-    .menu-card {
-        width: 45%;
-    }
-
-    .contact-section {
-        margin-top: 200px;
-    }
-}
