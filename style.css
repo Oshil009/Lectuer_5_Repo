@@ -21,8 +21,9 @@ section {
 #home {
     scroll-margin-top: 100px;
 }
+
 #Menu {
-    scroll-margin-top:10px;
+    scroll-margin-top: 10px;
 }
 
 header {
@@ -201,14 +202,154 @@ html {
 .hero-menu img {
     object-fit: cover;
     width: 1521px;
-    height: 800px;
+    height: 750px;
 }
-.hero-menu-contanar {
+
+.hero-menu-container {
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 90px;
+
     transform: translate(-50%, -50%);
-    display: flex;
     justify-content: space-around;
     width: 80%;
+}
+
+.menu-text {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    tab-size: 25px;
+
+}
+
+.menu-card-show {
+    display: flex;
+    position: fixed;
+    translate: center;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.menu-card {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+
+    text-align: center;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 215px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.container-WP {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Weight,
+.price {
+    font-weight: bold;
+    color: #8B5A2B;
+
+}
+
+.Ingredients {
+    font-weight: bold;
+    color: #8B5A2B;
+
+}
+
+.number-OfItem {
+    font-weight: bold;
+    color: #8B5A2B;
+    margin-left: 10px;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+}
+
+.Order {
+    position: absolute;
+    bottom: -80px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #8B5A2B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 3s, width 3s;
+    width: 40%;
+}
+
+.Order:hover {
+    background-color: #A9745B;
+    width: 60%;
+}
+
+.contact-section {
+    padding: 80px 20px;
+    margin-top: 460px;
+    text-align: center;
+    background-color: #141414;
+}
+
+.contact-section h1 {
+    color: #c98a3e;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #c98a3e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #8b5a2b;
+}
+
+footer {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
